@@ -1,0 +1,29 @@
+table, td{
+    border-collapse: collapse;
+    border: 2px solid #333;
+}
+
+
+
+tr:first-child{
+    background-color: #ccc;
+}
+
+tr:nth-child(odd){
+    background-color: #ccc;
+}
+
+table, tr{
+    font-size: 30px;
+}
+
+tr:nth-child(2) td:nth-child(2),
+tr:nth-child(3) td:nth-child(2),
+tr:nth-child(6) td:nth-child(4),
+tr:nth-child(7) td:nth-child(4),
+tr:nth-child(2) td:nth-child(6),
+tr:nth-child(3) td:nth-child(6){
+    background-color: blue;
+}
+
+
